@@ -1,16 +1,6 @@
 @charset "UTF-8";
 /* Custom Font-Styles */
 @font-face {
-  font-family: Yanone;
-  src: url("css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf"); }
-@font-face {
-  font-family: Yanone;
-  font-weight: bold;
-  src: url("css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf"); }
-@font-face {
-  font-family: Yanone-Light;
-  src: url("css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Light.otf"); }
-@font-face {
   font-family: Yanone-Thin;
   src: url("css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Thin.otf"); }
 @font-face {
@@ -29,9 +19,8 @@ nav.primary {
   max-height: 8em;
   background: #333333; }
   nav.primary img {
-    padding-top: 40px;
     margin-left: 20px;
-    width: 100px;
+    width: 115px;
     height: auto; }
   nav.primary h1 {
     font-size: 2.5em;

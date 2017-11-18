@@ -263,6 +263,25 @@ nav.primary ul {
   }
 }
 
+.how-it-works-section {
+  background-color: rgba(120,120,120,0.1);
+  padding: 2em;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  p {
+    color: black;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 1.9em;
+    font-family: Yanone, Gill Sans, Verdana;
+  }
+  strong, a {
+    color: #e53b51;
+  }
+}
+
 .take-survey-section{
   background: #e53b51;
   border-radius: 5px;
@@ -292,7 +311,7 @@ nav.primary ul {
   }
 }
 
-.how-it-works-section {
+.donate-shoe-section{
   background-color: rgba(120,120,120,0.1);
   padding: 2em;
   border-radius: 10px;

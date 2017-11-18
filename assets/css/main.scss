@@ -13,14 +13,12 @@
 //	- Style For Within Actual Posts
 // =====================================
 
-
 /* Custom Font-Styles */
 // @font-face { font-family: Yanone; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf'); }
 // @font-face { font-family: Yanone; font-weight: bold; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf'); }
 // @font-face { font-family: Yanone-Light; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Light.otf'); }
 @font-face { font-family: Yanone-Thin; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Thin.otf'); }
 @font-face { font-family: Sketch; src: url('css/font/SketchSerif.otf'); }
-
 
 // =====================================
 // Style For NavBar
@@ -115,7 +113,7 @@ nav.primary ul {
     text-decoration: none;
   }
   div {
-    padding: 10px;
+    padding: 30px;
   }
 }
 

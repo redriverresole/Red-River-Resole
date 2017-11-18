@@ -79,6 +79,8 @@ nav.primary ul {
   .footer-main a {
     color: #fff;
     text-decoration: none; }
+  .footer-main div {
+    padding: 10px; }
 
 #footer-email {
   font-weight: bold; }

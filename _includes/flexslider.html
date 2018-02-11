@@ -1,0 +1,16 @@
+<div class="row justify-content-center">
+	<div class="col-12">
+		<div class="flexslider">
+			<ul class="slides">
+		  		{% for page in site.posts %}
+		  		<li data-thumb="{{ page.sliderImage }}">
+		  			<a href="{{ site.url}}{{ page.permalink }}">
+			    		<img src="{{ page.sliderImage }}">
+			    		<p class="flex-caption">{{ page.excerpt }}</p>
+			    	</a>
+		 		</li>
+		  		{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

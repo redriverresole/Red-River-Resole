@@ -1,24 +1,25 @@
-<div class="row">
-    <nav class="primary">
+<nav class="primary navbar navbar-expand-sm navbar-dark bg-dark">
 
-        <!-- Logo & Title -->
-        <div class="three columns">
-            <a href="#">
-                <img src="/assets/img/logos/logo_basic_transparent_white.png" alt="Continuous Joy Logo" style="margin-top: 10px;">
-                <h1>Red River Resole</h1>
-            </a>
-        </div>
+    <a class="navbar-brand" href="{{ site.url }}">
+        <img src="/assets/img/logos/logo_basic_transparent_white.png" alt="Red Resole Logo">
+        <h1>Red Resole</h1>
+    </a>
 
-        <!-- Links -->
-        <ul>
-            <!-- <li><a href="#">Home</a></li> -->
-           <!--  <li><a href="/ResoleMyShoe">Resole My Shoe</a></li> -->
-            <!-- <li><a href="#mission" class="smoothScroll">About</a></li> -->
-            <li><a href="https://mailchi.mp/5db27145d867/redriverresole" target="_blank">Subscribe</a></li>
-            <li><a href="https://goo.gl/forms/m9UVrwamVI9GJzsi1" target="_blank">Take the Survey</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfl42fh919Cnt7UHPtMchQEe77zPKdnbDrvp0r0rmFaYxhV5Q/viewform?usp=sf_link" target="_blank">Donate Shoes</a></li>
-            <!-- <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li> -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ site.url }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="{{ site.url}}/#weNeedHelp">Donate</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-item nav-link" href="{{ site.url }}#blog">Blog</a>
+            </li> -->
         </ul>
-
-    </nav>
-</div>
+    </div>
+</nav>

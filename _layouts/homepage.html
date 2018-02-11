@@ -1,39 +1,45 @@
 ---
 layout: page
-image_sliders:
-  - Post_Slider
-image_sliders_load_all: true
 ---
 
 <div>
-
-  <br>
-
- 	<section id="header">
+ 	<section class="homepage-container" id="header">
   		{% include mainHeader.html %}
-  </section>
-
-
- 	<section id="mission">
-      <br>
-  	  {% include mission.html %}
-	</section>
-
- 	<section id="howItWorks">
-      <br>
-  		{% include howItWorks.html %}
-	</section>
-
-  <section id="survey">
-      <br>
-    {% include takeTheSurvey.html %}
-  </section>
-
-  <section id="donate-shoes">
-      <br>
-    {% include donateOldShoes.html %}
   </section>
 
     <br>
 
+ 	<section class="homepage-container" id="mission">
+  		{% include mission.html %}
+	</section>
+
+  	<br>
+
+ 	<section class="homepage-container" id="howItWorks">
+  		{% include howItWorks.html %}
+	</section>
+
+    <br>
+
+  <section class="homepage-container" id="weNeedHelp">
+      {% include weNeedHelp.html %}
+  </section>
+
+    <br>
+
+  <section class="homepage-container" id="donateShoes">
+      {% include donateOldShoes.html %}
+  </section>
+
+  	<br>
+
+  <!-- Latest Posts: -->
+  <!-- <section class="homepage-container" id="blog">
+      <div class="homepage-title">
+        <h3>Latest Posts</h3>
+      </div>
+      <div class="stories-slider">
+        {% include flexslider.html %}
+      </div>
+  </section> -->
 </div>

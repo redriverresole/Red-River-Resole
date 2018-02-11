@@ -9,7 +9,6 @@ include: [_data]
 
 sass:
   sass_dir: assets/css/
-  # style: compressed
 
 plugins:
 

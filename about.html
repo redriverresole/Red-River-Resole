@@ -1,0 +1,23 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<br><br>
+
+<div class="page-title">
+	<h1>Our Team</h1>
+</div>
+
+<div class="row justify-content-center">
+	{% for teammember in site.data.teammembers %}
+	<div class="col-md-4 col-11 team-member-card">
+		<img src="{{ site.url }}/assets/img/team/{{ teammember.image }}.png" alt="{{ teammember.name }}">
+		<h4>{{ teammember.name }}</h4>
+		<p>{{ teammember.hometown }}</p>
+		<p>{{ teammember.dayjob }}</p>
+		<p>{{ teammember.rrg }}</p>
+	</div>
+	{% endfor %}
+</div>

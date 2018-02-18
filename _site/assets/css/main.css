@@ -22,15 +22,15 @@ nav.primary {
   .navbar-brand h1 {
     color: #fff;
     font-size: 1.9em;
-    margin-top: -65px;
+    margin-top: -45px;
     margin-left: 100px;
     position: fixed;
     font-weight: 400;
     /* < 768 */ }
     @media (max-width: 767px) {
       .navbar-brand h1 {
-        font-size: 1.2em;
-        margin-top: -60px; } }
+        font-size: 1.8em;
+        margin-top: -45px; } }
 
 .navbar-nav {
   float: right;
@@ -311,6 +311,55 @@ nav.primary {
 
 .flex-direction-nav a {
   height: 55px; }
+
+.page-title {
+  text-align: center;
+  background: transparent url("/assets/img/design/header-line.png") repeat-x 0 60%;
+  margin-bottom: 24px; }
+  .page-title h1 {
+    background: #fff;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    vertical-align: bottom;
+    /* < 768 */ }
+    @media (max-width: 767px) {
+      .page-title h1 {
+        font-size: 3em; } }
+
+.team-member-card {
+  text-align: center;
+  padding: 0px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #e53b51; }
+  .team-member-card h4 {
+    color: #fff;
+    padding: 10px;
+    font-size: 2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* < 768 */ }
+    @media (max-width: 767px) {
+      .team-member-card h4 {
+        font-size: 1.8em; } }
+  .team-member-card p {
+    color: #fff;
+    padding: 10px;
+    font-size: 1.6em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* < 768 */ }
+    @media (max-width: 767px) {
+      .team-member-card p {
+        font-size: 1.5em; } }
+  .team-member-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto; }
 
 .post-title h1 {
   font-family: 'Yanone Kaffeesatz', sans-serif;

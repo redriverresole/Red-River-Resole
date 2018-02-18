@@ -87,13 +87,13 @@ nav.primary {
   h1 {
     color: $fontColor;
     font-size: 1.9em;
-    margin-top: -65px;
+    margin-top: -45px;
     margin-left: 100px;
     position: fixed;
     font-weight: 400;
     @include mobile {
-      font-size: 1.2em;
-      margin-top: -60px;
+      font-size: 1.8em;
+      margin-top: -45px;
     }
   }
 }
